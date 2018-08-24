@@ -1,0 +1,34 @@
+# Permalinks
+permalink:           /:title
+
+# Setup
+title:               ThaFridge.nl
+description:             "Git is hard: screwing up is easy, & figuring out how to fix your mistakes is fucking impossible. So here are some common bad situations, & how you can get out of them in plain english."
+url:                 https://thafridge.nl
+baseurl:
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              ThaFridge
+  url:               https://www.thafridge.nl
+  email:             info@weborigin.nl
+
+# Custom vars
+version:             0.0.1
+github:
+  repo:              https://github.com/meSingh/Git.WTF
+google_analytics:
+twitter:             meSingh9
+github:              meSingh/Git.WTF
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
